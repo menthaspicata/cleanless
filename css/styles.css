@@ -1,0 +1,334 @@
+@font-face {
+	font-family: Pompadur; 
+	src: url(../fonts/glyphicons-halflings-regular.ttf); 
+	src: url(../fonts/glyphicons-halflings-regular.woff);
+	src: url(../fonts/glyphicons-halflings-regular.woff2);
+}
+
+header {
+	margin-top: 27px;
+}
+
+header ul {
+	margin-bottom: 0 !important;
+}
+
+header li {
+	display: inline-block;
+	height: 70px;
+	padding: 0 23px;
+}
+
+header li:last-child {
+	padding: 0;
+}
+
+nav .navbar {
+	margin-bottom: 0;
+}
+
+#navbarCollapse .navbar-nav {
+	margin: 0 ;
+	float: right;
+}
+
+.navbar.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+#navbarCollapse .nav li a {
+	padding: 10px 0;
+
+	text-align: center;
+}
+
+#navbarCollapse .nav li:not(:last-child)  a {
+	padding-bottom: 59px;
+	width: 73px;
+
+	border: none;
+	background-color: #ffffff;
+
+	color: #bcbcbc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navbarCollapse .nav li:not(:last-child)  a:hover {
+	border-bottom: 2px solid #33ccff;
+
+	font-weight: bold;
+	color: #747474;
+
+}
+
+#navbarCollapse .nav li:last-child  a {
+	padding: 9px 11px; 
+
+	width: 89px;
+	color: #ffffff;
+}
+
+
+
+.nav li:last-child  a, .sign div a:first-child {
+	font-weight: bold;
+	text-decoration:none; 
+	text-align:center; 
+	
+	border: solid 1px #00bcdd; 
+		-webkit-border-radius:4px;
+			-moz-border-radius:4px; 
+	border-radius: 4px;  
+	color: #ffffff; 
+	background-color: #68e1ff; 
+	background-image: -moz-linear-gradient(top, #68e1ff 0%, #01c7f8 100%); 
+	background-image: -webkit-linear-gradient(top, #68e1ff 0%, #01c7f8 100%); 
+	background-image: -o-linear-gradient(top, #68e1ff 0%, #01c7f8 100%); 
+	background-image: -ms-linear-gradient(top, #68e1ff 0% ,#01c7f8 100%);
+	background-image: linear-gradient(top, #68e1ff 0% ,#01c7f8 100%);   
+		-webkit-transition: background 0s linear;
+			-moz-transition:  background 0s linear;
+				-o-transition:  background 0s linear;
+	transition:  background 0s linear;
+}
+
+.nav li:last-child  a:hover, .sign div a:first-child:hover{
+	border:solid 1px #00bcdd; 
+		-webkit-border-radius:4px;
+			-moz-border-radius:4px; 
+	border-radius: 4px; 
+	color:#ffffff; 
+	background-color:#4aa2b8; 
+	background-image: -moz-linear-gradient(top, #01c7f8  0%, #68e1ff 100%); 
+	background-image: -webkit-linear-gradient(top, #01c7f8  0%, #68e1ff 100%); 
+	background-image: -o-linear-gradient(top, #01c7f8  0%, #68e1ff 100%); 
+	background-image: -ms-linear-gradient(top, #01c7f8 0% ,#68e1ff 100%); 
+	background-image: linear-gradient(top, #01c7f8  0% ,#68e1ff 100%);   
+  }
+
+.sign div a:last-child , .get-now div a {
+	text-decoration: none;
+	
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 4px; 
+	border:solid 1px #ea8100; 
+	background-color:#ffbf58; 
+	background-image: -moz-linear-gradient(top, #ffbf58 0%, #f88d01 100%); 
+	background-image: -webkit-linear-gradient(top, #ffbf58 0%, #f88d01 100%); 
+	background-image: -o-linear-gradient(top, #ffbf58 0%, #f88d01 100%); 
+	background-image: -ms-linear-gradient(top, #ffbf58 0% ,#f88d01 100%); 
+	background-image: linear-gradient(top, #ffbf58 0% ,#f88d01 100%);   
+}
+
+.sign div a:last-child:hover, .get-now div a:hover {
+	border:solid 1px #ea8100; 
+	background-color:#f88d01; 
+	background-image: -moz-linear-gradient(top, #f88d01 0%, #ffbf58 100%); 
+	background-image: -webkit-linear-gradient(top, #f88d01 0%, #ffbf58 100%); 
+	background-image: -o-linear-gradient(top, #f88d01 0%, #ffbf58 100%); 
+	background-image: -ms-linear-gradient(top, #f88d01 0% ,#ffbf58 100%);
+	background-image: linear-gradient(top, #f88d01 0% ,#ffbf58 100%);   
+}
+
+
+.sign div a  {
+	margin: 2%;
+	padding:16px 0;
+
+	width: 137px;
+	display: inline-block;
+
+	font-size: 18px;
+
+}
+
+.get-now div a {
+	margin: 57px 0;
+	padding: 17px 32px;
+	display: inline-block;
+	float: right;
+	
+
+	border-radius: 4px;
+
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+.row li:last-child{
+	text-align: center;
+}
+
+.bg-for-slider {
+	background: #333;
+	height: 258px; 
+}
+.item {
+	background: #333;    
+	text-align: center;
+	height: 250px !important;
+}
+
+.item h2 {
+	padding-top: 108px;
+	margin-top: 0 !important; 
+
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 33px;
+	letter-spacing: 1.5px;
+}
+
+.container {
+   width: 81% !important;
+}
+
+.carousel-control {
+	width: 1% !important;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none !important;
+}
+
+#next {
+	content: '' !important;
+	border-image: url(../imgs/arrow.png) !important;
+}
+
+.carousel-indicators {
+	bottom: 0 !important;
+}
+
+.carousel-indicators li ,.carousel-indicators .active  {
+	margin: 5px !important;
+
+	width: 7px !important;
+	height: 7px !important;
+}
+
+img {
+	margin-top: 5px;
+}
+
+.sign {
+	margin-bottom: 50px;
+}
+
+.sign h2 {
+	margin-top: 75px;
+	margin-bottom: 28px;
+	text-align: center;
+
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	font-size: 35px;
+}
+
+.sign div {
+	text-align: center;
+}
+
+
+span {
+	font-weight: bold;
+}
+
+
+.bg-iphone{
+	height: 554px;
+
+	background-image: url(../imgs/iphone.jpg);
+	background-repeat: no-repeat;
+	background-position: 259px 4px;
+}
+
+.bg-iphone h2 {
+	margin: 96px 0 29px;
+
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+}
+
+.bg-iphone p {
+	width: 38%;
+
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.bg-iphone img {
+	margin-top: 34px;
+
+}
+
+.get-now {
+	background-color: #f8f8f8;
+	width: 100%
+}
+
+.get-now h2 {
+	margin: 69px 0;
+	float: left;
+
+	color: #6a6a6a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.get-now input {
+	margin: 56px 8px;
+	float: right;
+	
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+footer div {
+	margin: 6% 0.5%;
+}
+
+footer p {
+	float: right;
+	margin: 6% 0;
+
+	color: #6a6a6a;
+	font-size: 16px;
+
+}
+
+.drib{
+	display: inline-block;
+	background-image: url(../imgs/sprites.png);
+	background-position: 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.insta{
+	display: inline-block;
+	background-image: url(../imgs/sprites.png);
+	background-position: -37px 0;
+	width: 24px;
+	height: 24px;
+}
+
+.twit{
+	display: inline-block;
+	background-image: url(../imgs/sprites.png);
+	background-position: -79px 0;
+	width: 29px;
+	height: 24px;
+}

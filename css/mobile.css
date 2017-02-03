@@ -1,0 +1,61 @@
+@media all and (min-width:320px ) and (max-width: 767px){
+
+		#navbarCollapse .nav li:not(:last-child)  a {
+		padding-bottom: 5px;
+	}
+	.item h2 {
+		padding-top: 56px;
+	}
+
+	.navbar-nav {
+		margin: 0;
+	}
+	
+	.bg-iphone {
+		    height: 389px;
+		background-image: none;
+	}
+	
+	.bg-iphone p {
+		margin: 0;
+		width: 100%;
+	}
+
+	.get-now h2 {
+		margin-bottom: 0;
+	}
+
+	footer p {
+		text-align: center;
+		
+	}
+}
+
+@media all and (min-width:768px ) and (max-width: 1024px) {
+	header li {
+		    padding: 0 22px;
+	}
+
+	#navbarCollapse .nav li:not(:last-child)  a {
+		padding-top: 16px;
+		padding-bottom: 53px;
+	}
+	
+		.bg-iphone {
+		    height: 293px;
+		background-image: none;
+	}
+
+		.bg-iphone h2 {
+		margin-top: 29px;
+	}
+
+		.bg-iphone p {
+		margin: 0;
+		width: 100%;
+	}
+
+		.get-now h2 {
+		margin-bottom: 0;
+	}
+}
